@@ -20,9 +20,9 @@
 
     <h1>Zahlauswahl</h1>
 
-    <form name="zahlenauswahlForm" action="contact_form.php" onsubmit="return validateForm()" method="get">
+    <form name="zahlenauswahlForm" action="contact_form.php" method="get">
         <label for="number">Nummer:</label>
-        <input type="number" id="number" name="number" min="1" max="5"><br><br>
+        <input type="number" id="number" name="number" min="1" max="5" required><br><br>
         <input type="submit" value="Submit">
     </form>
 
@@ -32,17 +32,6 @@
     <footer>
         copyright Benito Ernst
     </footer>
-
-
-    <script>
-        function validateForm() {
-            var x = document.forms["zahlenauswahlForm"]["number"].value;
-            if (x == "") {
-                alert("Nummer muss einen Wert enthalten!");
-                return false;
-            }
-        }
-    </script>
     
 </body>
 </html>

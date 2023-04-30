@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(158, 158, 158);
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(49, 49, 49);
+    padding: 20px;
+}
+
+nav a{
+    color: white;
+    padding: 20px;
+}
+
+main{
+    background-color: rgb(202, 202, 202);
+    color: black;
+    margin: 20px;
+    padding: 10px;
+}
+
+main h1{
+    color: rgb(0, 0, 0);
+}
+
+main p{
+    color: rgb(44, 44, 44);
+}
+
+footer{
+    background-color: rgb(213, 226, 94);
+    color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

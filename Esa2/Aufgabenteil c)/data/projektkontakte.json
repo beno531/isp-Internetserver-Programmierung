@@ -1,0 +1,32 @@
+[
+    {
+        "vorname": "Max1",
+        "nachname": "Mustermann1",
+        "email": "test1@mail.com",
+        "telefon": "111111111"
+    },
+    {
+        "vorname": "Max2",
+        "nachname": "Mustermann2",
+        "email": "test2@mail.com",
+        "telefon": "222222222"
+    },
+    {
+        "vorname": "Max3",
+        "nachname": "Mustermann3",
+        "email": "test3@mail.com",
+        "telefon": "333333333"
+    },
+    {
+        "vorname": "Max4",
+        "nachname": "Mustermann4",
+        "email": "test4@mail.com",
+        "telefon": "444444444"
+    },
+    {
+        "vorname": "Max5",
+        "nachname": "Mustermann5",
+        "email": "test5@mail.com",
+        "telefon": "555555555"
+    }
+]

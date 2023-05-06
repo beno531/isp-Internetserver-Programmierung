@@ -36,3 +36,22 @@ footer{
     width: 100%;
     text-align: center;
 }
+
+.contact-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li:nth-child(even) {
+    background-color: #d9d9d9;
+}
+
+ul li:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.contact-list li {
+    margin-bottom: 5px;
+    padding: 10px;
+}

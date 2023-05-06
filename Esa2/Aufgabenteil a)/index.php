@@ -11,7 +11,9 @@
 <body>
 
 <nav>
-    <a href='#' onclick='loadView("contact_list.php");'>Projektkontakte</a>
+    <a href='#' onclick='loadView("main.php");'>Hauptseite</a>
+    <a href='#' onclick='loadView("contact_form.php");'>Projektkontakt</a>
+    <a href='#' onclick='loadView("num_form.php");'>Zahlauswahl</a>
 </nav>
 
 
